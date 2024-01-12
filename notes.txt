@@ -1,0 +1,13 @@
+git add makes untracked files staged files.
+staged files are files that are to be eventually committed
+untracked filed do not presently exist in the repository
+see git help for tips
+git status tells us everyhting we need to know about changed to be commited, untracked files, etc
+git add . adds all files in the present working directory to the staged phase, ready to be committed
+if we want git to ignore things like executables and object files that we don't want in our repository, we simply add the file extensions to the .gitignore, for example: *.o will make sure we ignore all files ending with ".o"
+and as we can see, when we run git status, hello.o file will not be in the untracked files section
+git commit pushes all the files we want into one place. we can run git add multiple times until we're satisfied with the files we want in our repository then run git commit to merge all those files into one commit, grouped under one commit message. we then run git push to make the changes in the repository
+in my iss folder i directly cloned the repository using git clone, hence my repository on my local system was already "linked" to my repo on github.
+but i could have run git init and initialised a repository in my local system first. then, if i were to want to upload committed files to an existing initialised repo ongithub, i'd FIRST have to run "git remote add origin <link>"
+this is to link the repo initialised on my local system with the repository on github
+git log tells you the LOG of commits, that is, who committed what and when
