@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+  
+/*class names can be used multiple times but id must only be used once*/
+/* #clock_container{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 100px;
+    background-color: black;
+    color: antiquewhite;
+    padding:50px;
+    padding-bottom: 70px;
+    margin-bottom: 20px;
+    border-radius:30px;
+} */
+#clock{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 100px;
+    background-color: black;
+    color: antiquewhite;
+    padding:50px;
+    border-radius:30px;
+}  
+
+#switch_button{
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: black;
+    color: antiquewhite;
+}
