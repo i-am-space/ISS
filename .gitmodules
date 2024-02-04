@@ -1,0 +1,3 @@
+[submodule "MyWebsite"]
+	path = MyWebsite
+	url = https://github.com/i-am-space/MyWebsite.git
