@@ -12,3 +12,4 @@ in my iss folder i directly cloned the repository using git clone, hence my repo
 but i could have run git init and initialised a repository in my local system first. then, if i were to want to upload committed files to an existing initialised repo ongithub, i'd FIRST have to run "git remote add origin <link>"
 this is to link the repo initialised on my local system with the repository on github
 git log tells you the LOG of commits, that is, who committed what and when
+git fetch origin "fetches" the changes not made by you on youir local system from the GitHub. From ehre, you can use git merge origin/main to reflect all changes on your local branch.
