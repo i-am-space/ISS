@@ -1,3 +1,6 @@
 [submodule "MyWebsite"]
 	path = MyWebsite
 	url = https://github.com/i-am-space/MyWebsite.git
+[submodule "course-project-edgarallanpoopoo"]
+	path = course-project-edgarallanpoopoo
+	url = https://github.com/Introduction-to-Software-Systems/course-project-edgarallanpoopoo.git
